@@ -11,8 +11,7 @@
 - :hourglass_flowing_sand: Easy to Setup
 - :sparkles: Straight forward syntax
 - :nut_and_bolt: Built on GoLang
-- :pushpin: The library loads in the browser - no local dependencies
-- :cloud: Serve locally and on GitHub Pages or Netlify
+- :cloud: Serve locally and on GitHub Pages
 
 [Get Started](#getting-started) <!-- TODO: Use ID of your homepage heading -->
 

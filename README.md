@@ -1,7 +1,7 @@
 Getting Started
 ===============
 JQL is a Go package that provides a fast and [simple](#get-a-value) way to get values from a json object.
-It has features such as [one line retrieval](#get-a-value), [dot notation paths](#path-syntax), [iteration](#iterate-through-an-object-or-array), and [parsing json lines](#json-lines).
+It has features such as [one line retrieval](#get-a-value), [conditions](#conditions) for conditional queries, [modifiers](#modifiers) to modify the queried response.
 
 
 This README is a quick overview of how to use JQL, for more information check out [JQL Syntax](SYNTAX.md).
@@ -44,4 +44,42 @@ Prints:
 Infinix
 ```
 
+## Operators
+The bassic Operators to begin with are
 
+	- # : "Count" or "All"
+
+	- * : any characters
+
+	- ? : any character
+	
+
+## Conditions
+Conditional queries can also be used to fetch data from JSON.
+
+	- Syntax
+		- #(...) : first Match
+		- #(...)# : All Matches
+
+	- Examples
+		- ==  : equal to
+		- !=  : not equal to
+		- <   : less than
+		- <=  : less than or equal to
+		- >   : greater than
+		- >=  : greater than or equal to
+		- ||  : Conditions OR
+		- AND : Conditions AND
+
+
+## Modifiers
+Queried values from JSON can also be further modified to suit our needs, basic modifiers are
+
+	- Syntax
+		- @<modifier>
+    
+	- Examples
+		- uppercase
+		- lowercase
+		- reverse
+		- sort

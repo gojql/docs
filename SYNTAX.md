@@ -6,4 +6,5 @@ This document is designed to explain the structure of a JQL Path through example
 
 - [Basic](#basic)
 - [Operators](#operators)
+- [Conditions](#conditions)
 - [Modifiers](#modifiers)
